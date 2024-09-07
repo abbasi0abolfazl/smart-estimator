@@ -13,6 +13,7 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 
+
 st.set_page_config(
     page_title="Estimator - تخمینگر",
     page_icon=":bar_chart:",
