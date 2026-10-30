@@ -5,7 +5,7 @@
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.4%2B-F7931E.svg?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[🇮🇷 مستندات فارسی (Persian Documentation)](README.fa.md) • [Report Issues](https://github.com/abbasi0abolfazl/streamlit_machine_learning/issues)
+[🇮🇷 مستندات فارسی (Persian Documentation)](README.fa.md) • [Report Issues](https://github.com/abbasi0abolfazl/smart-estimator/issues)
 
 An interactive, production-structured machine learning application built with **Streamlit** and **Scikit-Learn** for multi-domain market valuation. The platform combines ensemble regressors for consumer hardware pricing (laptops) and non-linear tree models for metropolitan real-estate valuation (over 160,000 property records in Iran), supplemented by an automated Exploratory Data Analysis (EDA) engine.
 
@@ -84,8 +84,8 @@ Model performance is evaluated against held-out validation sets:
 
 ```bash
 # Clone the repository
-git clone https://github.com/abbasi0abolfazl/streamlit_machine_learning.git
-cd streamlit_machine_learning
+git clone https://github.com/abbasi0abolfazl/smart-estimator.git
+cd smart-estimator
 
 # Create and activate virtual environment
 python3 -m venv .venv
@@ -117,7 +117,7 @@ The application is fully configured for zero-configuration deployment on **Strea
 ## 📂 Project Structure
 
 ```
-streamlit_machine_learning/
+smart-estimator/
 ├── main.py              # Application entry point & page navigation logic
 ├── requirements.txt     # Runtime dependencies
 ├── CSV_data/            # Training and sample dataset storage

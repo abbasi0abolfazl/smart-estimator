@@ -1,6 +1,6 @@
 # 📊 تخمینگر هوشمند (Estimator) - پلتفرم وب یادگیری ماشین
 
-[English Documentation](README.md) • [گزارش خطا و بازخورد](https://github.com/abbasi0abolfazl/streamlit_machine_learning/issues)
+[English Documentation](README.md) • [گزارش خطا و بازخورد](https://github.com/abbasi0abolfazl/smart-estimator/issues)
 
 یک پلتفرم وب تعاملی مهندسی‌شده با **Streamlit** و الگوریتم‌های **یادگیری ماشین (Scikit-Learn)** برای تخمین هوشمند ارزش بازار در دو حوزه کالای دیجیتال (لپ‌تاپ) و املاک (مسکن در تهران و ایران)، همراه با ماژول تحلیل اکتشافی داده‌ها (EDA).
 
@@ -60,8 +60,8 @@
 
 ```bash
 # کلون مخزن
-git clone https://github.com/abbasi0abolfazl/streamlit_machine_learning.git
-cd streamlit_machine_learning
+git clone https://github.com/abbasi0abolfazl/smart-estimator.git
+cd smart-estimator
 
 # ایجاد محیط مجازی
 python3 -m venv .venv
@@ -79,7 +79,7 @@ streamlit run main.py
 ## 📂 ساختار مخزن
 
 ```
-streamlit_machine_learning/
+smart-estimator/
 ├── main.py              # رابط اصلی Streamlit و منطق ناوبری
 ├── requirements.txt     # بسته‌های پایتونی مورد نیاز
 ├── CSV_data/            # دیتاست‌های خام و آماده‌سازی‌شده
